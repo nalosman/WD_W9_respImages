@@ -1,2 +1,3 @@
-# WD_W9_respImages
-W9 WD - Learning Responsive Images
+# Week 9 Web Development - Responsive Images
+
+### Concepts Learned
