@@ -11,6 +11,17 @@
   <title>W9 Responsive Images Lesson</title>
 </head>
 <body>
+  <main>
+    <div>
+      <picture>
+        <source srcset="images/hubble-mid_web.jpg" media="(min-width: 660px)">
+        <source srcset="images/hubble-large_web.jpg" media="(min-width: 1000px)">
+          <!-- always include a default image for browsrt that dont support picture tag, and also if a media query doesnt match -->
+        <img src="images/hubble-small_web.jpg" alt="hubble image">
+
+      </picture>
+    </div>
+  </main>
 
 
 <script src="js/main.js" charset="utf-8"></script>
