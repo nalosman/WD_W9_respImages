@@ -1,0 +1,9 @@
+/* dont ever do this cuz it makes app look like crap*/
+/* img {
+  width: 100%;
+} */
+
+/* make sure ig cant scale past its natural dimensions */
+img, embed, object, video {
+  max-width: 100%;
+}
